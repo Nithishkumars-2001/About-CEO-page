@@ -1,0 +1,461 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'poppins',sans-serif;
+}
+
+ /* Navbar */
+
+.navbar{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.navbar .logo h3{
+    color: red;
+    padding: 10px;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px black;
+}
+
+.navbar .menu i{
+    font-size: 30px;
+    text-shadow: 1px 1px 2px black;
+    padding-top: 20px;
+    padding-right: 25px;
+    cursor: pointer;
+}
+
+.ceo-page{
+    background-image: url(7KwMbp.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.ceo-profile img{
+    margin-top: 50px;
+    margin-left: 120px;
+    height: 500px;
+}
+
+.about-ceo{
+    float: right;
+    width: 50%;
+    height: 400px;
+    position: relative;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+.about-ceo h2{
+    color: rgb(8, 97, 112);
+    font-size: 35px;
+    text-shadow: 1px 1px 2px ;
+}
+
+.about-ceo h4{
+    padding-top: 20px;
+    color: red;
+    font-size: 20px;
+}
+
+.about-ceo p{
+    padding-top: 10px;
+    width: 600px;
+}
+
+.link{
+    padding-top: 30px;
+    cursor: pointer;
+}
+
+.link:hover{
+    color: red;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+.social-icon{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.social-icon a{
+    color: red;
+    text-shadow: 1px 1px 2px black;
+    padding-right: 40px;
+    font-size: 30px;
+}
+
+.social-icon a:hover{
+    color: teal;
+}
+
+.side-navbar{
+    top: 60px;
+    left: -70%;
+    position: absolute;
+    width: 50%;
+    height: 90vh;
+    background-color: transparent;
+    transition: 2s;
+}
+
+.close-side-navbar{
+    padding-top: 50px;
+    padding-left: 150px;
+    color: red;
+    text-shadow: 2px 2px 4px black;
+}
+
+.side-logo {
+    display: flex;
+    padding-top: 70px;
+}
+
+.side-logo i{
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px black;
+    padding-left: 20px;
+}
+
+.side-navbar-link{
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+    padding: 10px;
+    padding-left: 30px;
+}
+
+.side-navbar-link a{
+    font-size: 20px;
+    text-decoration: underline;
+    color: teal;
+    font-weight: bold;
+    padding-right: 20px;
+    padding-top: 25px;
+    padding-left: 20px;
+}
+
+.side-navbar-link a:hover{
+    font-size: 20px;
+    text-decoration: underline;
+    color: teal;
+    text-shadow: 1px 1px 2px black;
+}
+
+.contact-info{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.contact-info h4{
+    color: red;
+    font-size: 20px;
+}
+
+.contact-info p{
+    padding-top: 10px;
+}
+
+.contact-info p span{
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+.qulaification {
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.qulaification h3{
+    color: red;
+    font-size: 20px;
+}
+
+.qulaification p{
+    padding-top: 15px;
+}
+
+.experience{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.experience  h3{
+    color: red;
+    font-size: 20px;
+}
+
+.experience  p{
+    padding-top: 15px;
+}
+
+.experience  p i{
+    color: red;
+    padding-right: 15px;
+}
+
+.about-network{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+
+.about-network h3{
+    color: red;
+}
+
+.about-network table{
+    padding-top: 20px;
+}
+
+.about-network p{
+    padding-top: 20px;
+}
+
+.about-network p b{
+    padding-right: 10px;
+}
+
+.about-network p a:hover{
+    text-decoration: underline;
+    color:red;
+    font-size: 20px;
+}
+
+.about-network table tr td{
+    padding-top: 10px;
+    padding-right: 70px;
+}
+
+.awards{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.awards h3{
+    color: red;
+}
+
+.awards p{
+    padding-top: 10px;
+}
+
+.awards p i{
+    padding-right: 10px;
+    color: red;
+}
+
+.contact-details{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color: gray;
+    margin-top: 30px;
+}
+
+.social-icons{
+    color: white;
+    width: 350px;
+    text-align: center;
+    padding-right: 70px;
+    padding-left: 80px;
+}
+
+.social-icons h2{
+    color: teal;
+    text-shadow: 2px 2px 4px black;
+}
+
+.social-icons i{
+    width: 30px;
+    height: 25px;
+    margin-top: 20px;
+    padding: 10px;
+    color: teal;
+    background-color: aliceblue;
+    font-size: 25px;
+    margin-right: 10px;
+    border-radius: 100%;
+    text-shadow: 2px 2px 4px black;
+    cursor: pointer;
+}
+
+.social-icons i:hover{
+    color: red;
+}
+
+.information1{
+    color: white;
+    text-align: center;
+    padding-right: 70px;
+}
+
+.information2{
+    color: white;
+    text-align: center;
+    padding-right: 70px;
+}
+
+.loc-ph{
+    color: white;
+    text-align: center;
+    width: 300px;
+}
+
+.loc-ph i{
+    color: teal;
+    text-shadow: 2px 2px 4px black;
+    padding-right: 5px;
+}
+
+::-webkit-scrollbar{
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: red;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: white;
+}
+
+
+
+@media screen and (max-width: 790px){
+    .navbar .logo h3{
+        padding: 10px;
+        font-size: 20px;
+    }
+    
+    .navbar .menu i{
+        font-size: 25px;
+        padding-top: 15px;
+    }
+    
+    .ceo-profile img{
+        margin-left: 10px;
+        height: 360px;
+    }
+    
+    .about-ceo{
+        display: flex;
+        flex-wrap: wrap;
+        float: left;
+        width: 100%;
+        height: 500px;
+        margin-top: 20px;
+        margin-left: 10px;
+        padding-left: 30px;
+    }
+    
+    .about-ceo h2{
+        font-size: 25px;
+    }
+    
+    .about-ceo h4{
+        padding-top: 50px;
+        margin-left: -190px;
+        font-size: 20px;
+    }
+    
+    .about-ceo p{
+        width: 350px;
+    }
+    
+    .link{
+        padding-top: 15px;
+    }
+    
+    .social-icon{
+        padding-top: 15px;
+    }
+    
+    .social-icon a{
+        padding-right: 20px;
+        font-size: 30px;
+    }
+    
+    .side-navbar{
+        top: 50px;
+        background-color: white;
+    }
+    
+    .side-navbar-link a{
+        font-size: 15px;
+    }
+    
+    .contact-info p{
+        padding-top: 10px;
+    }
+    
+    .contact-info p span{
+        font-weight: bold;
+        padding-right: 5px;
+    }
+    
+    .qulaification {
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+    
+    .qulaification h3{
+        font-size: 18px;
+    }
+    
+    .experience  h3{
+        font-size: 20px;
+    }
+    
+    .about-network table tr td{
+        font-size: 13px;
+        padding-right: 20px;
+    }
+    
+    .contact-details{
+        flex-direction: column;
+    }
+    
+    .social-icons{
+        color: white;
+        width: 350px;
+        text-align: center;
+        padding-right: 70px;
+        padding-left: 20px;
+    }
+    
+    .social-icons h2{
+       font-size: 20px;
+    }
+    
+    .information1{
+        padding-right: 0px;
+        padding-top: 30px;
+    }
+    
+    .information2{
+        padding-right: 0px;
+        padding-top: 30px;
+    }
+    
+    .loc-ph{
+        padding-top: 30px;
+        padding-left: 40px;
+    }
+    
+}
